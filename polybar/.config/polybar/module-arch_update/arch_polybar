@@ -1,0 +1,4 @@
+[module/updates-arch-combined]
+type = custom/script
+exec = ~/.config/polybar/module-arch_update/script.sh
+interval = 600

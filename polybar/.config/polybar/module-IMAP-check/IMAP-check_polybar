@@ -1,0 +1,5 @@
+[module/IMAP-check]
+type = custom/script
+;exec = $HOME/.config/polybar/module-IMAP-check/IMAP-check
+exec = $HOME/Programmes/IMAP-check/IMAPC.py
+interval = 90

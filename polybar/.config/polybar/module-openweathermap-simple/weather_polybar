@@ -1,0 +1,5 @@
+[module/openweathermap-simple]
+type = custom/script
+exec = ~/.config/polybar/module-openweathermap-simple/script.sh
+interval = 600
+label-font = 3

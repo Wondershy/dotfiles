@@ -1,0 +1,4 @@
+[module/isactive-bluetooth]
+type = custom/script
+exec = $HOME/.config/polybar/module-bluetooth/script.sh
+interval = 10
