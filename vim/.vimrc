@@ -21,8 +21,8 @@ Bundle 'vim-scripts/nextval'
 "Gestionnaire de fichiers
 Bundle 'scrooloose/nerdtree'
 
-"Controleur de syntaxe
-"Bundle 'vim-syntastic/syntastic' DÉSACTIVÉ À CAUSE DE LISP
+"Controleur de syntaxe à DÉSACTIVÉ À CAUSE DE LISP
+Bundle 'vim-syntastic/syntastic' 
 
 "Statusbar
 Bundle 'vim-airline/vim-airline'

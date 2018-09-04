@@ -1,0 +1,9 @@
+######
+#GAPS#
+######
+gaps inner 5
+bindsym $mod+o gaps inner current minus 5
+bindsym $mod+p gaps inner current plus 5
+smart_gaps on
+smart_borders on
+for_window [class="^.*"] border pixel 0

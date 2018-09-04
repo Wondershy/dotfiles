@@ -1,0 +1,21 @@
+###########
+#VARIABLES#
+###########
+set $mod Mod4
+
+########
+#CONFIG#
+########
+#polkit
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
+#numlock
+exec --no-startup-id numlockx on
+
+#######
+#FONTS#
+#######
+font pango:monospace 8
+
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
+

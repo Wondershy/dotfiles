@@ -1,0 +1,34 @@
+#Workspaces
+bindsym $mod+ampersand workspace 1; exec "~/.config/i3/autorun.py 1"
+bindsym $mod+eacute workspace 2; exec "~/.config/i3/autorun.py 2"
+bindsym $mod+quotedbl workspace 3; exec "~/.config/i3/autorun.py 3"
+bindsym $mod+apostrophe workspace 4; exec "~/.config/i3/autorun.py 4"
+bindsym $mod+parenleft workspace 5
+bindsym $mod+minus workspace 6
+bindsym $mod+egrave workspace 7
+bindsym $mod+underscore workspace 8
+bindsym $mod+ccedilla workspace 9
+bindsym $mod+agrave workspace 10; exec "~/.config/i3/autorun.py 10"
+
+# move to workspace
+bindsym $mod+Shift+ampersand move container to workspace 1
+bindsym $mod+Shift+eacute move container to workspace 2
+bindsym $mod+Shift+quotedbl move container to workspace 3
+bindsym $mod+Shift+apostrophe move container to workspace 4
+bindsym $mod+Shift+5 move container to workspace 5
+bindsym $mod+Shift+minus move container to workspace 6
+bindsym $mod+Shift+egrave move container to workspace 7
+bindsym $mod+Shift+underscore move container to workspace 8
+bindsym $mod+Shift+ccedilla move container to workspace 9
+bindsym $mod+Shift+agrave move container to workspace 10
+
+###############
+#WINDOW ASSIGN#
+###############
+assign [class="Firefox|Firefox-esr"] 1
+assign [class="Thunderbird"] 2
+assign [class="discord"] 4
+assign [class="Clementine|cantata"] 10
+
+for_window [class="Yad"] floating enable
+

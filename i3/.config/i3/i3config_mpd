@@ -1,0 +1,14 @@
+# Pulse Audio controls
+bindsym $mod+XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5% 
+bindsym $mod+XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
+bindsym $mod+XF86AudioMute exec pactl set-sink-mute 0 toggle 
+bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle 
+
+#mpd controls
+bindsym XF86AudioRaiseVolume exec mpc volume +5
+bindsym XF86AudioLowerVolume exec mpc volume -5 
+bindsym XF86AudioPlay exec mpc toggle
+bindsym XF86AudioStop exec mpc stop
+bindsym XF86AudioPrev exec mpc prev
+bindsym XF86AudioNext exec mpc next
+
