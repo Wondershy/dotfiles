@@ -4,7 +4,6 @@ i3files = $(i3dir)/i3config_base $(i3dir)/i3config_keyboard $(i3dir)/i3config_ga
 
 .PHONY: all vim polybar mpd i3 packages i3config 
 
-$(i3files):
 
 
 all: packages i3 mpd
@@ -24,6 +23,7 @@ mpd:
 ###
 ### I3WM
 ###
+$(i3files):
 $(i3dir)/config: $(i3files) 
 	cat $^ > $@
 

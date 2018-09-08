@@ -8,4 +8,3 @@ exec kalu #notif updates
 exec mpd
 exec mpc pause
 exec guake
-

@@ -15,5 +15,5 @@ if [ "$updates" -gt 0 ]; then
     # echo " $updates"
     echo ""
 else
-    echo ""
+    echo " "
 fi
