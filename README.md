@@ -50,5 +50,5 @@ Les touches multimédia (play/pause, suivant et précédent) permettent de manip
 ## TODO
 - [ ] Démarche pour vim
 - [ ] Décrire la configuration UI
-- [ ] Ajouter qutebrowser
-- [ ] Raccourci netflix
+- [x] Ajouter qutebrowser
+- [x] Raccourci netflix

@@ -12,7 +12,7 @@ def get_pid(name):
 
 app = { 1 : {"command":"firefox",       "process":"firefox"}, \
         2 : {"command":"thunderbird",   "process":"thunderbird"}, \
-        4 : {"command":"discord",       "process":""}, \
+        4 : {"command":"discord",       "process":"Discord"}, \
         10 :{"command":"cantata",       "process":"cantata"} }
 
 if len(sys.argv) > 1:

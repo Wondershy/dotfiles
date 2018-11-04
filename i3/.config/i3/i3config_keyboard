@@ -2,6 +2,7 @@
 #KEYBOARD#
 ##########
 bindsym $mod+Return exec tilix
+bindsym $mod+n exec qutebrowser https://www.netflix.com/
 bindsym $mod+Shift+a kill
 bindsym $mod+f fullscreen toggle
 bindsym $mod+d exec rofi -show drun -font "Arial 14.1" -show-icons
@@ -67,4 +68,8 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+#Brightness
+bindsym $mod+F11 exec "~/.config/i3/brightness.sh -10"
+bindsym $mod+F12 exec "~/.config/i3/brightness.sh +10"
 
