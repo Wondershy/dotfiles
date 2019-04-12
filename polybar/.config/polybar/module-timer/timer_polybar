@@ -1,0 +1,4 @@
+[module/timer]
+type = custom/script
+exec = ~/.config/polybar/module-timer/script.sh
+interval = 1

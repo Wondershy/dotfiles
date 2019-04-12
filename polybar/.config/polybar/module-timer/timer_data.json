@@ -1,0 +1,19 @@
+{
+	"barre1" : [
+		{
+			"name" : "Riz",
+			"begin" : "",
+			"duration" : { "minutes" : 10 }
+		},
+		{
+			"name" : "2",
+			"begin" : "",
+			"duration" : ""
+		},
+		{
+			"name" : "3",
+			"begin" : "",
+			"duration" : ""
+		}
+	]
+}

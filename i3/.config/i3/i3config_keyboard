@@ -6,6 +6,7 @@ bindsym $mod+n exec qutebrowser https://www.netflix.com/
 bindsym $mod+Shift+a kill
 bindsym $mod+f fullscreen toggle
 bindsym $mod+d exec rofi -show drun -font "Arial 14.1" -show-icons
+bindsym $mod+w exec rofi -show window -font "Arial 14.1" -show-icons
 
 #Focus
 bindsym $mod+j focus left
@@ -70,6 +71,13 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 #Brightness
-bindsym $mod+F11 exec "~/.config/i3/brightness.sh -10"
-bindsym $mod+F12 exec "~/.config/i3/brightness.sh +10"
+bindsym $mod+F11 exec "~/.config/i3/scripts/brightness.sh -10"
+bindsym $mod+F12 exec "~/.config/i3/scripts/brightness.sh +10"
 
+#Volume
+bindsym $mod+F8 exec "~/.config/i3/scripts/volume.sh toggle"
+bindsym $mod+F9 exec "~/.config/i3/scripts/volume.sh 10%-"
+bindsym $mod+F10 exec "~/.config/i3/scripts/volume.sh 10%+"
+
+#Kill process
+bindsym $mod+Delete kill

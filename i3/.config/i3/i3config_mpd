@@ -5,10 +5,18 @@ bindsym $mod+XF86AudioMute exec pactl set-sink-mute 0 toggle
 bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle 
 
 #mpd controls
-bindsym XF86AudioRaiseVolume exec mpc volume +5
-bindsym XF86AudioLowerVolume exec mpc volume -5 
-bindsym XF86AudioPlay exec mpc toggle
-bindsym XF86AudioStop exec mpc stop
-bindsym XF86AudioPrev exec mpc prev
-bindsym XF86AudioNext exec mpc next
+#bindsym XF86AudioRaiseVolume exec mpc volume +5
+#bindsym XF86AudioLowerVolume exec mpc volume -5 
+#bindsym XF86AudioPlay exec mpc toggle
+#bindsym XF86AudioStop exec mpc stop
+#bindsym XF86AudioPrev exec mpc prev
+#bindsym XF86AudioNext exec mpc next
+
+#spotify controls
+#bindsym XF86AudioRaiseVolume exec mpc volume +5
+#bindsym XF86AudioLowerVolume exec mpc volume -5 
+bindsym XF86AudioPlay exec "~/.config/i3/scripts/spotify-manager.py PlayPause"
+bindsym XF86AudioStop exec "~/.config/i3/scripts/spotify-manager.py Stop"
+bindsym XF86AudioPrev exec "~/.config/i3/scripts/spotify-manager.py Previous"
+bindsym XF86AudioNext exec "~/.config/i3/scripts/spotify-manager.py Next"
 

@@ -1,0 +1,6 @@
+################
+#LOGOUT MANAGER#
+################
+
+for_window [class="Oblogout"] fullscreen
+bindsym $mod+Escape exec "~/.config/i3/scripts/logout.sh"

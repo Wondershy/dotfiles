@@ -4,7 +4,7 @@
 exec_always --no-startup-id "killall polybar; polybar -r top"
 exec_always --no-startup-id "feh --bg-scale ~/.config/i3/bg.jpg"
 exec compton
-exec kalu #notif updates
 exec mpd
 exec mpc pause
 exec guake
+exec "xbacklight -set 12 -time 0"

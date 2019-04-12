@@ -10,3 +10,8 @@ elif [[ $FUTURE_VALUE -gt $MAX ]]; then
 else
   xbacklight -inc $1
 fi
+
+FINALE_VALUE=`xbacklight`
+FINALE_VALUE=${FINALE_VALUE/.*}'%'
+
+notify-send -u low "Luminosité" $FINALE_VALUE -t 500

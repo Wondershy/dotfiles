@@ -1,6 +1,6 @@
 stow = stow -v -t ~ 
 i3dir = i3/.config/i3
-i3files = $(i3dir)/i3config_base $(i3dir)/i3config_keyboard $(i3dir)/i3config_gaps $(i3dir)/i3config_workspaces $(i3dir)/i3config_autorun $(i3dir)/i3config_mpd
+i3files = $(i3dir)/i3config_base $(i3dir)/i3config_keyboard $(i3dir)/i3config_gaps $(i3dir)/i3config_workspaces $(i3dir)/i3config_autorun $(i3dir)/i3config_mpd $(i3dir)/i3config_oblogout
 
 .PHONY: all vim polybar mpd i3 packages i3config 
 
